@@ -60,7 +60,7 @@ module SendGrid
       @send_at
     end
     
-    def add_dynamic_template_data=(dynamic_template_data)
+    def dynamic_template_data=(dynamic_template_data)
       @dynamic_template_data = dynamic_template_data
     end
 
